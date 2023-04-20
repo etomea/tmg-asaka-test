@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>TMGあさか医療センター</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+
+
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/141ae6253e.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+<header>
+	<div class="container">
+	
+		<div class="logo">
+			<a href="#"><figure><img src="img/logo-sp.png" alt="TMGあさか医療センター"></figure></a>
+		</div>
+
+		<div class="right-menu">
+			<div class="to-call"><i class="fa-solid fa-phone" style="color: #03814f;"></i></div>
+			<div id="hamburger">
+				<div class="icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+			<nav class="sm">
+				<ul>
+					<li>
+						<ul class="familiar-list">
+							<li class="familiar-btn">
+								<a href="#">
+								<figure><img src="img/schedule-g.svg" alt="外来医師予定表" class="schedule"></figure>
+								<p>外来医師<br>予定表</p></a>
+							</li>
+							<li class="familiar-btn"><a href="#">
+								<figure><img src="img/map-g.svg" alt="交通" class="traffic"></figure>
+								<p>交通</p></a>
+							</li>
+							<li class="familiar-btn"><a href="#">
+								<figure><img src="img/bus-g.svg" alt="シャトルバス" class="bus"></figure>
+								<p>シャトルバス</p></a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">受診される方へ</a></li>
+					<li><a href="#">診療科・センター・部門</a></li>
+					<li><a href="#">医療関係者の方へ</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pc">
+				<ul class="gnavi">
+					<li><a href="#">受診される方へ</a></li>
+					<li><a href="#">診療科・センター・部門</a></li>
+					<li><a href="#">医療関係者の方へ</a></li>
+					<li><a href="#" class="btn-tel">0570-07-2055</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div><!-- .container -->
+</header>
+
+
+<!-- li><a href="#">受診される方へ</a></li>
+	<li><a href="#">診療科・センター・部門</a></li>
+	<li><a href="#">医療関係者の方へ</a></li>
+	<li><a href="#">予約・お問お合せ</a></li> -->
+
+<section class="hero">
+	<h1>患者様を<br>自分の家族と思う<br>医療を</h1>
+	<!-- <p>理想的なライフスタイルを作り出す</p>
+	<a href="#">街歩きからはじめてみる</a> -->
+</section>
+ 
+<section class="schedule-wrap">
+ <div class="container">
+	<div class="schedule-box">
+		<div class="schedule-time">
+			<h3 class="start-time">診療時間</h3>
+			<ul class="schedule-list">
+				<li><b>初診の方、予約のない方へ</b></li>
+				<li><div class="schedule-item"><p class="s-ttl">月～土曜日</p><p>8:00～16:00</p></div></li>
+				<li><div class="schedule-item"><p class="s-ttl">診療時間</p><p>9:00～17:00</p></div></li>
+				<li><div class="schedule-item"><p class="s-ttl">休診日</p><p class="holiday">日曜日、休日、年末年始</p></div></li>
+			</ul>
+			<div class="supplement"><p>各診療科によって異なります。<br>詳しくは、<a href="/">外来医師予定表</a>をご覧ください。</p></div>
+		</div> <!--  schedule-time -->
+		<div class="schedule-btn">
+			<ul class="schedule-btn-list">
+				<li><a href="#">
+					<figure><img src="img/schedule.svg" alt="外来医師予定表"></figure>
+					<p>外来医師予定表</p></a>
+				</li>
+				<li><a href="#">
+					<figure><img src="img/paper.svg" alt="紹介状をお持ちください"></figure>
+					<p>紹介状をお持ちください</p></a>
+				</li>
+				<li><a href="#">
+					<figure><img src="img/map.svg" alt="交通"></figure>
+					<p>交通</p></a>
+				</li>
+			</ul>
+
+			<ul class="fee-revision-list">
+				<li class="fee-revision-item">初診時に紹介状をお持ちでない場合、保険診療の自己負担金のほかに保険外併用療養費（選定療養）として7,700円（税込）がかかります。</li>
+				<li class="fee-revision-item">当院から他の医療機関への紹介を受けた方が、紹介状なしに当院を再受診された場合に受診毎に再診時選定療養費3,300円（税込）がかかります。</li>
+			</ul>
+	</div> <!--  schedule-btn -->
+	</div><!--  schedule-box -->
+</section>
+
+
+<section class="link-list">
+	<div class="container">
+		<ul>
+			<li><a href="/"><figure><img src="img/link-ico01.svg" alt="/"></figure><p>受診される方</p></a></li>
+			<li><a href="/"><figure><img src="img/link-ico02.svg" alt="/"></figure><p>入院・面会の方</p></a></li>
+			<li><a href="/"><figure><img src="img/link-ico03.svg" alt="/"></figure><p>検査を受ける方</p></a></li>
+			<li><a href="/"><figure><img src="img/link-ico04.svg" alt="/"></figure><p>ご相談のある方</p></a></li>
+		</ul>
+	</div>
+</section>
+
+<section class="news-area">
+	<div class="container">
+		<h2 class="top">お知らせ</h2>
+		<div class="wrapper">
+			<ul class="tab">
+			  <li class="tab-list"><a href="#lunch">ご来院の方へ</a></li>
+			  <li class="tab-list"><a href="#drink">診療変更・休診</a></li>
+			  <li class="tab-list"><a href="#dinner" class="lst">医療関係者の方</a></li>
+			</ul>
+		  
+			  <div id="lunch" class="area">
+				<ul class="news-list">
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.04.14</time></div>
+						<p>病院機能評価の認定を更新しましたの認定を更新</p>
+					</a>
+				  </li>
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.04.13</time></div>
+						<p> 各種広報媒体への記事「読売新聞（病院の実力：腎がん）」掲載のご案内</p>
+					</a>
+				  </li>
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.04.12</time></div>
+						<p>市民向けWEBセミナー 第６回 あさか脳チャンネル</p>
+					</a>
+				  </li>
+				</ul>
+			  <!--/area--></div>
+			  <div id="drink" class="area">
+				<ul class="news-list">
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.03.20</time></div>
+						<p>【小児科】土曜日の診療について</p>
+					</a>
+				  </li>
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.03.21</time></div>
+						<p>【美容外来】シミ しわ ボトックス</p>
+					</a>
+				  </li>
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.03.22</time></div>
+						<p>【予約終了】2021年度インフルエンザ予防接種（小児科以外）</p>
+					</a>
+				  </li>
+				</ul>
+			  <!--/area--></div>
+			  <div id="dinner" class="area">
+				<ul class="news-list">
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.04.01</time></div>
+						<p> 【初期臨床研修医】追加募集のお知らせ</p>
+					</a>
+				  </li>
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.04.02</time></div>
+						<p> 【採用情報】経理課・事務当直・医事課</p>
+					</a>
+				  </li>
+				  <li>
+					<a href="/">
+						<div class="data-box"><time>2023.04.03</time></div>
+						<p> 歯科口腔外科アンケート結果のお知らせ</p>
+					</a>
+				  </li>
+				</ul>
+			  <!--/area--></div>
+			  
+			<div class="btn-box-1">
+					<a href="#" class="btn06 btnarrow1">お知らせ一覧へ</a>
+			</div>
+		  <!--wrapper--></div>
+
+		
+	</div>
+</section>
+
+<section class="topics-list">
+	<div class="container">
+		<h2 class="top">医療最前線</h2>
+		<div class="topics-slider">
+			<ul class="slider-box">
+				<li>
+					<div class="topic-img"><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_01.jpg" alt=""></figure></div>
+					<div class="topic-txt"><p class="topic-date">2023.04.05.</p><p class="topic-ttl">あさか脳チャンネルは、どんな市民公開講座</p></div>
+				</li>
+				<li>
+					<div class="topic-img"><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_02.jpg" alt=""></figure></div>
+					<div class="topic-txt"><p class="topic-date">2023.04.06.</p><p class="topic-ttl">初期臨床研修医の研修はどんなことをするの？</p></div>
+				</li>
+				<li>
+					<div class="topic-img"><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_03.jpg" alt=""></figure></div>
+					<div class="topic-txt"><p class="topic-date">2023.04.07.</p><p class="topic-ttl">再生医療についてお話しします</p></div>
+				</li>
+				<li>
+					<div class="topic-img"><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_04.jpg" alt=""></figure></div>
+					<div class="topic-txt"><p class="topic-date">2023.04.08.</p><p class="topic-ttl">前立腺がんは血液検査で早期発見</p></div>
+				</li>
+				<li>
+					<div class="topic-img"><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_05.jpg" alt=""></figure></div>
+					<div class="topic-txt"><p class="topic-date">2023.04.09.</p><p class="topic-ttl">コンシェルジュのご案内内容</p></div>
+				</li>
+				<li>
+					<div class="topic-img"><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_06.jpg" alt=""></figure></div>
+					<div class="topic-txt"><p class="topic-date">2023.04.10.</p><p class="topic-ttl">手術支援ロボット ダビンチはどんなロボット?</p></div>
+				</li>
+				<!--/slider--></ul>
+		  </div>
+		
+	</div>
+</section>
+
+<section class="about-area">
+	<div class="container">
+		<h2 class="top">病院紹介</h2>
+		<div class="about-box">
+			<article><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_01.jpg" alt=""></figure><h4 class="about-ttl">理念・基本方針</h4></article>
+			<article><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_02.jpg" alt=""></figure><h4 class="about-ttl">ご挨拶</h4></article>
+			<article><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_03.jpg" alt=""></figure><h4 class="about-ttl">病院概要</h4></article>		
+			<article><figure><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_04.jpg" alt=""></figure><h4 class="about-ttl">病院紹介</h4></article>		
+	    </div>
+		<div class="btn-box-1">
+			<a href="#" class="btn06 btnarrow1">病院紹介一覧へ</a>
+		</div>
+		<h4 class="top">TMGグループ</h4>
+		<div class="tmg-slider">
+			<div class="slick-initialized"><figure><img src="img/1.png" alt="病児保育"/></figure><caption>病児保育</caption></div>
+			<div class="slick-initialized"><figure><img src="img/2.png" alt="戸田中央総合病院ソフトボール部" /></figure><caption>戸田中央総合病院<br>ソフトボール部</caption></div>
+			<div class="slick-initialized"><figure><img src="img/3.png" alt="戸塚共立メディカル女子ラグビー部" /></figure><caption>戸塚共立メディカル女子ラグビー部</caption></div>
+			<div class="slick-initialized"><figure><img src="img/4.png" alt="戸田中央総合病院ローイングクラブ" /></figure><caption>戸田中央総合病院ローイングクラブ</caption></div>
+			<div class="slick-initialized"><figure><img src="img/5.png" alt="TMG SDGs Instagram" /></figure><caption>TMG SDGs<br>Instagram</caption></div>
+			<div class="slick-initialized"><figure><img src="img/6.png" alt="TMG SDGs Twitter" /></figure><caption>TMG SDGs<br>Twitter</caption></div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<p id="page-top"><a href="#"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a></p>
+	<div class="footer-wrap">
+		<div class="container">
+			<div class="hosptal-referral">
+				<figure><img src="img/logo-sp.png" alt=""></figure>
+				<p class="postscript">日本医療機能評価機構認定病院／厚生労働省臨床研修指定病院／埼玉県がん診療指定病院</p>
+				<p> 〒351-0023</br>埼玉県朝霞市溝沼1340-1</p>
+				<p>ナビダイヤル：<a href="tel:0570-072-055">0570-072-055</a></p>
+				<div class="sns">
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-square-facebook"></i>
+					<i class="fa-brands fa-twitter"></i>
+				</div>
+			</div>
+			<div class="footer-nav">
+				<ul class="accordion-area">
+					<li>
+					  <section>
+						<h4 class="title">受診される方へ</h4>
+						<div class="box">
+							<ul>
+								<li>担当医表・診療時間</li>
+								<li>オンライン予約システム</li>
+								<li>受診受付方法</li>
+								<li>セカンドオピニオン</li>
+								<li>再生医療（次世代PRP治療）</li>
+								<li>オンライン診療</li>
+							</ul>
+						</div>
+					  </section>
+					</li>
+					<li>
+					  <section>
+						<h4 class="title">地診療科・センター・部門</h4>
+						<div class="box">
+							<ul>
+								<li>診療科・センター・部門</li>
+								<li>専門外来</li>
+							</ul>
+						</div>
+					  </section>
+					</li>
+					<li>
+					  <section>
+						<h4 class="title">病院紹介</h4>
+						<div class="box">
+							<ul>
+								<li>病院概要・沿革</li>
+								<li>施設基準</li>
+								<li>患者様の権利</li>
+								<li>病院指標</li>
+								<li>臨床研究公開情報</li>
+								<li>個人情報保護方針</li>
+								<li>ダイバーシティーの推進</li>
+								<li>施設内の撮影・録音について</li>
+								<li>交通アクセス</li>
+								<li>医療最前線</li>
+							</ul>
+						</div>
+					  </section>
+					  
+					</li>
+					<li>
+					  <section>
+						<h4 class="title">医療機関の方へ</h4>
+						<div class="box">
+							<ul>
+								<li>地域医療関係機関の方へ</li>
+								<li>連携医療機関について</li>
+								<li>地域医療関連携課について</li>
+								<li>検査機器利用方法</li>
+								<li>がん化学療法レジメン</li>
+								<li>院外処方について</li>
+							</ul>
+						</div>
+					  </section>
+					  
+					</li>
+					<li>
+					  <section>
+						<h4 class="title-n">お知らせ一覧</h4>
+					  </section>
+					  
+					</li>
+					<li>
+					  <section>
+						<h4 class="title">採用情報</h4 >
+					  </section>
+					  
+				  </ul>
+				<!-- <ul>
+					
+					
+					
+				</ul> -->
+			</div> <!-- .footer-nav-->
+			<div class="footer-nav-pc">
+				<div class="footer-nav-item">
+					<ul>
+						<li class="f-general f-ttl">受診される方へ</li>
+							<ul class="f-category01">
+								<li>外来のご案内</li>
+									<ul class="f-category02">
+										<li>担当医表・診療時間</li>
+										<li>オンライン予約システム</li>
+										<li>受診受付方法</li>
+										<li>セカンドオピニオン</li>
+										<li>再生医療（次世代PRP治療）</li>
+										<li>オンライン診療</li>
+									</ul>
+								<li>入院のご案内</li>
+								<li>検査の方</li>
+								<li>相談窓口</li>
+							</ul>
+						
+						<li class="f-medical_department f-ttl">診療科・センター・部門</li>
+							<ul class="f-category01">
+								<li>診療科・センター・部門</li>
+								<li>専門外来</li>
+							</ul>
+					</ul>
+				</div>
+				<div class="footer-nav-item">
+					<ul>
+						<li class="f-about f-ttl">病院紹介</li>
+							<ul class="f-category01">
+								<li>病院概要・沿革</li>
+								<li>施設基準</li>
+								<li>患者様の権利</li>
+								<li>病院指標</li>
+								<li>臨床研究公開情報</li>
+								<li>個人情報保護方針</li>
+								<li>ダイバーシティーの推進</li>
+								<li>施設内の撮影・録音について</li>
+								<li>交通アクセス</li>
+								<li>医療最前線</li>
+							</ul>
+						<li class="community f-ttl">医療機関の方へ</li>
+							<ul class="f-category01">
+								<li>地域医療関係機関の方へ</li>
+								<li>連携医療機関について</li>
+								<li>地域医療関連携課について</li>
+								<li>検査機器利用方法</li>
+								<li>がん化学療法レジメン</li>
+								<li>院外処方について</li>
+							</ul>
+						<li class="f-news f-ttl">お知らせ一覧</li>
+						<li class="f-recruit f-ttl">採用情報</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-4-1/js/5-4-1.js"></script> -->
+<script src="js/script.js"></script>
+
+<script>
+
+
+</script>
+</body>
+</html>
